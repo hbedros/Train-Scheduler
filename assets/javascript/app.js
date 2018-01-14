@@ -23,7 +23,7 @@ var config = {
     storageBucket: "my-first-firebase-1-1.appspot.com",
     messagingSenderId: "337403978037"
   };
-  
+
   firebase.initializeApp(config);
 
 // Assign the reference to the database to a variable named 'database'
@@ -61,21 +61,6 @@ database.ref("/trains").on("child_added", function(snapshot) {
 
     $("span").hide();
 
-    // Hover view of delete button
-    $("tr").hover(
-        function() {
-            $(this).find("span").show();
-        },
-        function() {
-            $(this).find("span").hide();
-        });
-
-    // STARTED BONUS TO REMOVE ITEMS ** not finished **
-    $("#table-data").on("click", "tr span", function() {
-        console.log(this);
-        var trainRef = database.ref("/trains/");
-        console.log(trainRef);
-    });
 });
 
 // function to call the button event, and store the values in the input form
@@ -99,6 +84,8 @@ var storeInputs = function(event) {
         minutesAway: minutesAway,
         date_added: firebase.database.ServerValue.TIMESTAMP
     });
+
+    
 
     //  alert that train was added
     alert("Train successuflly added!");

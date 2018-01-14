@@ -5,8 +5,14 @@
 #head {
     text-align: center;
     background-color: #c96b1f;
-    color: black;
+    color: white;
     padding: 2%;
+}
+
+.jumbotron {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black
 }
 
 .panel-custom {
