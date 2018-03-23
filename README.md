@@ -1,4 +1,4 @@
-# Train Schedule
+# LA Metro Schedule
 
 ### Overview
 
