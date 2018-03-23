@@ -21,8 +21,9 @@ In this assignment, the objective was to create a train schedule application tha
 
 
 ### Link
-[Train-Schedule](https://ricopella.github.io/train-schedule/)
+[Train-Schedule](https://hbedros.github.io/Train-Scheduler/)
 
 ### Example Site
 
-![Train-Schedule](assets/images/train-schedule.png)
+<img width="1225" alt="screen shot 2018-03-23 at 2 38 33 pm" src="https://user-images.githubusercontent.com/30307915/37854382-ed22fe54-2ea7-11e8-9f55-5dfd11e3b85b.png">
+
